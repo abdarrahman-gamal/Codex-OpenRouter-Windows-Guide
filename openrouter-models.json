@@ -1,0 +1,196 @@
+{
+  "models": [
+    {
+      "slug": "openrouter/free",
+      "display_name": "OpenRouter Free Router",
+      "base_instructions": "Help the user with coding tasks, understanding code, editing files, and testing software.",
+      "supported_reasoning_levels": [],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 0,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "experimental_supported_tools": []
+    },
+    {
+      "slug": "inclusionai/ling-3.2-flash:free",
+      "display_name": "InclusionAI - Ling 3.2 Flash (Free)",
+      "base_instructions": "Help with coding, reasoning, image understanding, and software development tasks.",
+      "supported_reasoning_levels": [],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 1,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "experimental_supported_tools": []
+    },
+    {
+      "slug": "baidu/ernie-5.5-flash-preview:free",
+      "display_name": "Baidu - ERNIE 5.5 Flash Preview (Free)",
+      "base_instructions": "Help with coding, programming, reasoning, research, and software development tasks.",
+      "supported_reasoning_levels": [],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 2,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "experimental_supported_tools": []
+    },
+    {
+      "slug": "liquid/lfm-3-1.7b:free",
+      "display_name": "LiquidAI - LFM3 1.7B (Free)",
+      "base_instructions": "Help with coding, lightweight reasoning, and software development tasks.",
+      "supported_reasoning_levels": [],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 3,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "experimental_supported_tools": []
+    },
+    {
+      "slug": "particle-ai/particle-1:free",
+      "display_name": "Particle AI - Particle 1 (Free)",
+      "base_instructions": "Help with agentic coding, terminal workflows, codebase changes, debugging, and data engineering.",
+      "supported_reasoning_levels": [],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 4,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "experimental_supported_tools": []
+    },
+    {
+      "slug": "recursive/flint-v1.0:free",
+      "display_name": "Recursive - Flint V1.0 (Free)",
+      "base_instructions": "Help investigate codebases, fix bugs, implement features, write tests, and perform software engineering tasks.",
+      "supported_reasoning_levels": [],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 5,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "experimental_supported_tools": []
+    },
+    {
+      "slug": "nvidia/nemotron-3.5-super-vl:free",
+      "display_name": "NVIDIA - Nemotron 3.5 Super VL (Free)",
+      "base_instructions": "Help with coding, visual understanding, document analysis, GUI reasoning, and software development.",
+      "supported_reasoning_levels": [],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 6,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "experimental_supported_tools": []
+    },
+    {
+      "slug": "nvidia/nemotron-3.5-lightning:free",
+      "display_name": "NVIDIA - Nemotron 3.5 Lightning (Free)",
+      "base_instructions": "Help with coding, reasoning, agentic workflows, debugging, and software engineering tasks.",
+      "supported_reasoning_levels": [],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 7,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "experimental_supported_tools": []
+    },
+    {
+      "slug": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "display_name": "NVIDIA - Nemotron 3 Ultra (Free)",
+      "base_instructions": "Help with complex reasoning, planning, coding, research, and multi-step agentic workflows.",
+      "supported_reasoning_levels": [],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 8,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "experimental_supported_tools": []
+    },
+    {
+      "slug": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "display_name": "NVIDIA - Nemotron 3 Nano Omni (Free)",
+      "base_instructions": "Help with multimodal understanding, reasoning, coding assistance, and agentic workflows.",
+      "supported_reasoning_levels": [],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 9,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "experimental_supported_tools": []
+    },
+    {
+      "slug": "google/gemma-4-26b-a4b-it:free",
+      "display_name": "Google - Gemma 4 26B A4B (Free)",
+      "base_instructions": "Help with coding, reasoning, image understanding, and software development tasks.",
+      "supported_reasoning_levels": [],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 10,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "experimental_supported_tools": []
+    },
+    {
+      "slug": "google/gemma-4-31b-it:free",
+      "display_name": "Google - Gemma 4 31B (Free)",
+      "base_instructions": "Help with coding, reasoning, multilingual tasks, and software development.",
+      "supported_reasoning_levels": [],
+      "shell_type": "shell_command",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 11,
+      "support_verbosity": false,
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "experimental_supported_tools": []
+    }
+  ]
+}
